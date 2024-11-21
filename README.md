@@ -35,6 +35,7 @@ $password = '<contraseña>';
 
 3. Configuración de NGINX
 Editar el archivo de configuración de NGINX (ubicado, por ejemplo, en /etc/nginx/sites-available/default) para apuntar al proyecto:
+
 server {
     listen 80;
     server_name _;

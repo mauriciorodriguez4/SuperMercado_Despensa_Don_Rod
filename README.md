@@ -60,7 +60,7 @@ server {
     server_name _;
 
     root /var/www/html;
-    index index.php index.html index.htm;
+    index login.php login.html;
 
     location / {
         try_files $uri $uri/ /index.php?$query_string;
